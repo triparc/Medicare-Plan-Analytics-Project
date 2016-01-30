@@ -1,5 +1,6 @@
 --/* Hive DDL Statements */
 --/*Define Medicare Database*/
+CREATE DATABASE medicare;
 use medicare;
 --/*Add my JAR file to Hive Library and define UDFs*/
 add jar myhiveudfs.jar;
