@@ -1,0 +1,6 @@
+hdfs dfs -mkdir /medicareplan
+hdfs dfs -put PlanInfoCounty_FipsCodeLessThan30000.csv /medicareplan/Plan1.csv
+hdfs dfs -put PlanInfoCounty_FipsCodeMoreThan30000.csv /medicareplan/Plan2.csv
+hdfs dfs -put vwGeography.csv /medicareplan/vwgeography.csv
+hdfs dfs -put vwPlanServices.csv /medicareplan/vwplanservices.csv
+hdfs dfs -put  vwStarRating_SummaryScores.csv  /medicareplan/vwstarsummary.csv
